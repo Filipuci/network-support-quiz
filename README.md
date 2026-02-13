@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Quiz de Suporte Técnico – Redes e Provedor de Internet
 
-## Getting Started
+Quiz interativo com perguntas baseadas em situações reais do dia a dia de suporte técnico em redes e provedores de internet (ISP).
 
-First, run the development server:
+As questões abordam cenários como:
+
+- Atenuação de fibra óptica  
+- LOS (Loss of Signal)  
+- NAT restrito (XBOX)  
+- DNS público (Google e Cloudflare)  
+- Problemas de velocidade  
+- Rede 2.4GHz / 5GHz  
+- Configuração de mesh  
+
+A ideia foi transformar conhecimento prático da área técnica em uma aplicação simples utilizando React e TypeScript.
+
+---
+
+## 📸 Preview
+
+### Pergunta
+<img width="1911" height="1042" alt="image" src="https://github.com/user-attachments/assets/241d8261-28f6-4a22-988c-89005bcf8167" />
+
+
+### Resultado
+<img width="1886" height="1009" alt="image" src="https://github.com/user-attachments/assets/99b1674f-927d-48c2-858b-bf3e124d03b2" />
+
+
+---
+
+## 💻 Tecnologias utilizadas
+
+- React  
+- TypeScript  
+- Next.js (estrutura do projeto)  
+- Tailwind CSS  
+
+> Apesar de ter sido iniciado com Next.js, a lógica principal utiliza recursos do React (estado e componentização).
+
+---
+
+## 🚀 Funcionalidades
+
+- 10 perguntas técnicas
+- Feedback visual de acerto e erro
+- Cálculo da porcentagem de acertos com `reduce`
+- Tela final com resumo das respostas
+- Botão para reiniciar o quiz
+- Layout responsivo (mobile-first)
+
+---
+
+## 🎯 Objetivo
+
+Praticar e consolidar:
+
+- Gerenciamento de estado com `useState`
+- Renderização condicional
+- Manipulação de arrays
+- Cálculo de dados com `reduce`
+- Organização e tipagem com TypeScript
+
+---
+
+## ▶ Como executar
+
+### 🔗 Acessar online
+
+https://network-support-quiz-aj8q.vercel.app/
+
+---
+
+### 💻 Rodar localmente
 
 ```bash
+# Clonar o repositório
+git clone https://github.com/Filipuci/network-support-quiz.git
+
+# Entrar na pasta
+cd network-support-quiz
+
+# Instalar dependências
+npm install
+
+# Iniciar servidor
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
