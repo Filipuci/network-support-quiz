@@ -16,7 +16,7 @@ A ideia foi transformar conhecimento prático da área técnica em uma aplicaç�
 
 ---
 
-## 📸 Preview
+## Preview
 
 ### Pergunta
 <img width="1911" height="1042" alt="image" src="https://github.com/user-attachments/assets/241d8261-28f6-4a22-988c-89005bcf8167" />
@@ -28,7 +28,7 @@ A ideia foi transformar conhecimento prático da área técnica em uma aplicaç�
 
 ---
 
-## 💻 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - React  
 - TypeScript  
@@ -39,7 +39,7 @@ A ideia foi transformar conhecimento prático da área técnica em uma aplicaç�
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - 10 perguntas técnicas
 - Feedback visual de acerto e erro
@@ -50,7 +50,7 @@ A ideia foi transformar conhecimento prático da área técnica em uma aplicaç�
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Praticar e consolidar:
 
@@ -64,13 +64,13 @@ Praticar e consolidar:
 
 ## ▶ Como executar
 
-### 🔗 Acessar online
+### Acessar online
 
 https://network-support-quiz-aj8q.vercel.app/
 
 ---
 
-### 💻 Rodar localmente
+### Rodar localmente
 
 ```bash
 # Clonar o repositório
